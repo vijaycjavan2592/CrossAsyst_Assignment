@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.assignment.listener.ListenerClass"/>
+  </listeners>
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.assignment.testcases.Login_TC">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login_Functionality" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- com.assignment.testcases.Login_TC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="14" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="297475" started-at="2020-06-15T10:33:34Z" finished-at="2020-06-15T10:38:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="297475" started-at="2020-06-15T10:33:34Z" finished-at="2020-06-15T10:38:31Z">
+      <class name="com.assignment.testcases.CreateAccount_TC">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.assignment.testcases.CreateAccount_TC@335eadca]" name="beforeSuite" is-config="true" duration-ms="164" started-at="2020-06-15T16:03:34Z" finished-at="2020-06-15T16:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.assignment.testcases.CreateAccount_TC@335eadca]" name="set" is-config="true" duration-ms="17245" started-at="2020-06-15T16:03:34Z" finished-at="2020-06-15T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="verifyCreateAccountFunctionality(java.util.Hashtable)[pri:0, instance:com.assignment.testcases.CreateAccount_TC@335eadca]" name="verifyCreateAccountFunctionality" duration-ms="13595" started-at="2020-06-15T16:03:52Z" data-provider="getTestData" finished-at="2020-06-15T16:04:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{state=15, address_company=, date=15, address_AddressLine2=, address_lastName=john, address_zipCode=99524, Email_ID=Geeta784@gmail.com, address_firstName=geeta, month=10, year=2000, address_city=Mumbai, firstName=geeta, password=Geeta@123, lastName=john, mobileNumber=9874563214, address_Address=72256, addressAlias=myAddress}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccountFunctionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment.testcases.CreateAccount_TC@335eadca]" name="tearDown" is-config="true" duration-ms="101" started-at="2020-06-15T16:04:05Z" finished-at="2020-06-15T16:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.assignment.testcases.CreateAccount_TC@335eadca]" name="afterSuite" is-config="true" duration-ms="2" started-at="2020-06-15T16:08:31Z" finished-at="2020-06-15T16:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.assignment.testcases.CreateAccount_TC -->
+      <class name="com.assignment.testcases.Login_TC">
+        <test-method status="PASS" signature="set()[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="set" is-config="true" duration-ms="15272" started-at="2020-06-15T16:06:49Z" finished-at="2020-06-15T16:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Login_Functionality(java.util.Hashtable)[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="Login_Functionality" duration-ms="10613" started-at="2020-06-15T16:07:04Z" data-provider="getTestData" finished-at="2020-06-15T16:07:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Vijay@123, PageTitle=My account - My Store, Comment=Correct Username, UserName=vijaychavanqa@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Functionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="tearDown" is-config="true" duration-ms="122" started-at="2020-06-15T16:07:14Z" finished-at="2020-06-15T16:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="set" is-config="true" duration-ms="15391" started-at="2020-06-15T16:07:15Z" finished-at="2020-06-15T16:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Login_Functionality(java.util.Hashtable)[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="Login_Functionality" duration-ms="10030" started-at="2020-06-15T16:07:30Z" data-provider="getTestData" finished-at="2020-06-15T16:07:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=xyz785#, PageTitle=Login - My Store, Comment=Incorrect Password, UserName=vijaychavanqa@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Functionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="tearDown" is-config="true" duration-ms="127" started-at="2020-06-15T16:07:40Z" finished-at="2020-06-15T16:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="set" is-config="true" duration-ms="15214" started-at="2020-06-15T16:07:40Z" finished-at="2020-06-15T16:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Login_Functionality(java.util.Hashtable)[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="Login_Functionality" duration-ms="10404" started-at="2020-06-15T16:07:55Z" data-provider="getTestData" finished-at="2020-06-15T16:08:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Vijay@123, PageTitle=Login - My Store, Comment=Incorrect Username, UserName=abcd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Functionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="tearDown" is-config="true" duration-ms="116" started-at="2020-06-15T16:08:06Z" finished-at="2020-06-15T16:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="set" is-config="true" duration-ms="15342" started-at="2020-06-15T16:08:06Z" finished-at="2020-06-15T16:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Login_Functionality(java.util.Hashtable)[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="Login_Functionality" duration-ms="10015" started-at="2020-06-15T16:08:21Z" data-provider="getTestData" finished-at="2020-06-15T16:08:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=xyz785#, PageTitle=Login - My Store, Comment=Incorrect credentials, UserName=abcd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Functionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment.testcases.Login_TC@210366b4]" name="tearDown" is-config="true" duration-ms="129" started-at="2020-06-15T16:08:31Z" finished-at="2020-06-15T16:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assignment.testcases.Login_TC -->
+      <class name="com.assignment.testcases.endToEnd_TC">
+        <test-method status="PASS" signature="set()[pri:0, instance:com.assignment.testcases.endToEnd_TC@eec5a4a]" name="set" is-config="true" duration-ms="15307" started-at="2020-06-15T16:04:05Z" finished-at="2020-06-15T16:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="verifyPlaceOrderWithNewUser(java.util.Hashtable)[pri:0, instance:com.assignment.testcases.endToEnd_TC@eec5a4a]" name="verifyPlaceOrderWithNewUser" duration-ms="46430" started-at="2020-06-15T16:04:21Z" data-provider="getTestData_verifyPlaceOrderWithNewUser" finished-at="2020-06-15T16:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{mobileNumber=9874563214, firstName=geeta, password=Geeta@123, address_AddressLine2=, address_lastName=john, address_Address=72256, addressAlias=myAddress, state=15, itemToSelect=Faded Short Sleeve T-shirts, quantity=2, Expected Result=Order should be booked and verify in order History Page, address_firstName=geeta, year=2000, size=2, lastName=john, address_company=, address_city=Mumbai, paymentOption=Pay by check, address_zipCode=99524, date=15, month=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceOrderWithNewUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment.testcases.endToEnd_TC@eec5a4a]" name="tearDown" is-config="true" duration-ms="113" started-at="2020-06-15T16:05:07Z" finished-at="2020-06-15T16:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.assignment.testcases.endToEnd_TC@eec5a4a]" name="set" is-config="true" duration-ms="15359" started-at="2020-06-15T16:05:07Z" finished-at="2020-06-15T16:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="verifyPlacedOrderFunctionality(java.util.Hashtable)[pri:0, instance:com.assignment.testcases.endToEnd_TC@eec5a4a]" name="verifyPlacedOrderFunctionality" duration-ms="32078" started-at="2020-06-15T16:05:23Z" data-provider="getTestData" finished-at="2020-06-15T16:05:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{size=2, paymentOption=Pay by check, Expected Result=Order should be booked and verify in order History Page, itemToSelect=Faded Short Sleeve T-shirts, quantity=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlacedOrderFunctionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment.testcases.endToEnd_TC@eec5a4a]" name="tearDown" is-config="true" duration-ms="129" started-at="2020-06-15T16:05:55Z" finished-at="2020-06-15T16:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.assignment.testcases.endToEnd_TC@eec5a4a]" name="set" is-config="true" duration-ms="15335" started-at="2020-06-15T16:05:55Z" finished-at="2020-06-15T16:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="verifyPlacedOrderWithOrderHistory(java.util.Hashtable)[pri:0, instance:com.assignment.testcases.endToEnd_TC@eec5a4a]" name="verifyPlacedOrderWithOrderHistory" duration-ms="38056" started-at="2020-06-15T16:06:10Z" data-provider="getTestData" finished-at="2020-06-15T16:06:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{size=2, paymentOption=Pay by check, Expected Result=Order should be booked and verify in order History Page, itemToSelect=Faded Short Sleeve T-shirts, quantity=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlacedOrderWithOrderHistory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment.testcases.endToEnd_TC@eec5a4a]" name="tearDown" is-config="true" duration-ms="110" started-at="2020-06-15T16:06:48Z" finished-at="2020-06-15T16:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assignment.testcases.endToEnd_TC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

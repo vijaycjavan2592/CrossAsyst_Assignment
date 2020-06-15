@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 15 16:03:34 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>297 seconds (297475 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.assignment.testcases.Login_TC.Login_Functionality()'><b>Login_Functionality</b><br>Test class: com.assignment.testcases.Login_TC<br>Parameters: {Password=Vijay@123, PageTitle=My account - My Store, Comment=Correct Username, UserName=vijaychavanqa@gmail.com}</td>
+<td></td>
+<td>10</td>
+<td>com.assignment.testcases.Login_TC@210366b4</td></tr>
+<tr>
+<td title='com.assignment.testcases.Login_TC.Login_Functionality()'><b>Login_Functionality</b><br>Test class: com.assignment.testcases.Login_TC<br>Parameters: {Password=xyz785#, PageTitle=Login - My Store, Comment=Incorrect Password, UserName=vijaychavanqa@gmail.com}</td>
+<td></td>
+<td>10</td>
+<td>com.assignment.testcases.Login_TC@210366b4</td></tr>
+<tr>
+<td title='com.assignment.testcases.Login_TC.Login_Functionality()'><b>Login_Functionality</b><br>Test class: com.assignment.testcases.Login_TC<br>Parameters: {Password=Vijay@123, PageTitle=Login - My Store, Comment=Incorrect Username, UserName=abcd}</td>
+<td></td>
+<td>10</td>
+<td>com.assignment.testcases.Login_TC@210366b4</td></tr>
+<tr>
+<td title='com.assignment.testcases.Login_TC.Login_Functionality()'><b>Login_Functionality</b><br>Test class: com.assignment.testcases.Login_TC<br>Parameters: {Password=xyz785#, PageTitle=Login - My Store, Comment=Incorrect credentials, UserName=abcd}</td>
+<td></td>
+<td>10</td>
+<td>com.assignment.testcases.Login_TC@210366b4</td></tr>
+<tr>
+<td title='com.assignment.testcases.CreateAccount_TC.verifyCreateAccountFunctionality()'><b>verifyCreateAccountFunctionality</b><br>Test class: com.assignment.testcases.CreateAccount_TC<br>Parameters: {state=15, address_company=, date=15, address_AddressLine2=, address_lastName=john, address_zipCode=99524, Email_ID=Geeta784@gmail.com, address_firstName=geeta, month=10, year=2000, address_city=Mumbai, firstName=geeta, password=Geeta@123, lastName=john, mobileNumber=9874563214, address_Address=72256, addressAlias=myAddress}</td>
+<td></td>
+<td>13</td>
+<td>com.assignment.testcases.CreateAccount_TC@335eadca</td></tr>
+<tr>
+<td title='com.assignment.testcases.endToEnd_TC.verifyPlaceOrderWithNewUser()'><b>verifyPlaceOrderWithNewUser</b><br>Test class: com.assignment.testcases.endToEnd_TC<br>Parameters: {mobileNumber=9874563214, firstName=geeta, password=Geeta@123, address_AddressLine2=, address_lastName=john, address_Address=72256, addressAlias=myAddress, state=15, itemToSelect=Faded Short Sleeve T-shirts, quantity=2, Expected Result=Order should be booked and verify in order History Page, address_firstName=geeta, year=2000, size=2, lastName=john, address_company=, address_city=Mumbai, paymentOption=Pay by check, address_zipCode=99524, date=15, month=10}</td>
+<td></td>
+<td>46</td>
+<td>com.assignment.testcases.endToEnd_TC@eec5a4a</td></tr>
+<tr>
+<td title='com.assignment.testcases.endToEnd_TC.verifyPlacedOrderFunctionality()'><b>verifyPlacedOrderFunctionality</b><br>Test class: com.assignment.testcases.endToEnd_TC<br>Parameters: {size=2, paymentOption=Pay by check, Expected Result=Order should be booked and verify in order History Page, itemToSelect=Faded Short Sleeve T-shirts, quantity=2}</td>
+<td></td>
+<td>32</td>
+<td>com.assignment.testcases.endToEnd_TC@eec5a4a</td></tr>
+<tr>
+<td title='com.assignment.testcases.endToEnd_TC.verifyPlacedOrderWithOrderHistory()'><b>verifyPlacedOrderWithOrderHistory</b><br>Test class: com.assignment.testcases.endToEnd_TC<br>Parameters: {size=2, paymentOption=Pay by check, Expected Result=Order should be booked and verify in order History Page, itemToSelect=Faded Short Sleeve T-shirts, quantity=2}</td>
+<td></td>
+<td>38</td>
+<td>com.assignment.testcases.endToEnd_TC@eec5a4a</td></tr>
+</table><p>
+</body>
+</html>
